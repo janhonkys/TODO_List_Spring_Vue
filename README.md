@@ -4,6 +4,8 @@ This repository contains a web application built using Vue.js for the frontend a
 
 ![Alt text](TODO-list/todo1.png)
 ![Application Screenshot](TODO-List/todo1.png)
+![Application Screenshot](TODO-List/todo1.png)
+
 
 ## Application functions
 The web application provides several key functions to manage and display todo items efficiently. Here's an overview of its main functions:
