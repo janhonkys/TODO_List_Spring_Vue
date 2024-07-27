@@ -5,7 +5,7 @@ This repository contains a web application built using Vue.js for the frontend a
 ## Application Screenshot
 Below is a screenshot of the TODO List application showing the user interface with a list of todo items, including options to add, edit, and delete items.
 <br><br>
-![Application Screenshot](todo1.png "Screenshot of the TODO List application showing the user interface with a list of todo items, including options to add, update, and delete items.")
+![Application Screenshot](todo1.png)
 
 
 ## Application functions
