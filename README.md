@@ -9,9 +9,19 @@ The web application provides several key functions to manage and display todo it
 - Update existing todo item
 - Responsive UI design
 
+## TODO Attributes
+Each todo item includes the following attributes:
+- ID: A unique identifier for each todo item (automatically generated).
+- Title: A brief description of the todo item (up to 100 characters).
+- Description: A detailed description of the todo item (up to 2000 characters).
+- Priority: The importance of the todo item (Low, Medium, High).
+- Date: The date by which the todo item should be completed.
+- Completed: A boolean value indicating whether the todo item is completed or not.
+
 ## Backend Functions
 The backend provides a RESTful API to handle todo data management using Spring Boot. Key functions include:
 - GET /todo: Retrieve the list of todos.
+- GET /todo/{id}: Retrieve a todo item by ID.
 - POST /todo: Add a new todo item.
 - PUT /todo/{id}: Update an existing todo item by ID.
 - DELETE /todo/{id}: Delete a todo item by ID.
