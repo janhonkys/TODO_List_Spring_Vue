@@ -31,8 +31,11 @@ The backend provides a RESTful API to handle todo data management using Spring B
 - Maven: Build tool for managing dependencies and building the project.
 
 ## Running the Application
-Configure your Spring Boot application to connect to the MySQL database by updating the application.properties file. Sql script is part of the directory structure.
+### Backend
+Configure your Spring Boot application to connect to the MySQL database by updating the application.properties file. Sql script is part of the directory structure. To run the backend application locally:
 - Make sure you have MySQL installed and running.
 - Update application.properties with your MySQL database URL, username, and password.
 - Use Maven or your preferred IDE to build and run the project.
-  
+- The backend server will be running on http://localhost:8080.
+### Frontend
+To run the frontend application locally: 
