@@ -2,7 +2,7 @@
 
 This repository contains a web application built using Vue.js for the frontend and Spring Boot for the backend. The application is designed for managing todo items and includes features for adding, updating, and viewing todo items.
 
-![Application Screenshot](todo1.png)
+![Application Screenshot](todo1.png "Screenshot of the TODO List application showing the user interface with a list of todo items, including options to add, update, and delete items.")
 
 
 ## Application functions
