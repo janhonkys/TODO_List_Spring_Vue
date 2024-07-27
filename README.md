@@ -20,7 +20,7 @@ Each todo item includes the following attributes:
 - Completed: A boolean value indicating whether the todo item is completed or not.
 
 ## Backend Functions
-The backend provides a RESTful API to handle todo data management using Spring Boot. Key functions include:
+The connection between the frontend (built with Vue.js) and the backend (built with Spring Boot) is established through a RESTful API. The backend provides a RESTful API to handle todo data management using Spring Boot. Key functions include:
 - GET /todo: Retrieve the list of todos.
 - GET /todo/{id}: Retrieve a todo item by ID.
 - POST /todo: Add a new todo item.
