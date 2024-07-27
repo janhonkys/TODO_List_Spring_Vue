@@ -39,3 +39,11 @@ Configure your Spring Boot application to connect to the MySQL database by updat
 - The backend server will be running on http://localhost:8080.
 ### Frontend
 To run the frontend application locally: 
+- Ensure you have Node.js installed.
+- Clone the repository and navigate to the project directory.
+- Install the dependencies.
+- Start the development server.
+- Open your browser and go to http://localhost:5173 to view the application.
+
+## Testing (JUnit)
+- JUnit is used to write and run tests for the application, ensuring the correctness of various functionalities.
