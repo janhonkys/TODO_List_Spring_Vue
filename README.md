@@ -30,3 +30,9 @@ The backend provides a RESTful API to handle todo data management using Spring B
 - MySQL: Database management system used for storing todo items.
 - Maven: Build tool for managing dependencies and building the project.
 
+## Running the Application
+Configure your Spring Boot application to connect to the MySQL database by updating the application.properties file. Sql script is part of the directory structure.
+- Make sure you have MySQL installed and running.
+- Update application.properties with your MySQL database URL, username, and password.
+- Use Maven or your preferred IDE to build and run the project.
+  
