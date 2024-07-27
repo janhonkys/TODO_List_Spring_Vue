@@ -7,6 +7,7 @@ The web application provides several key functions to manage and display todo it
 - View todo list
 - Add new todo item
 - Update existing todo item
+- Delete existing todo item
 - Responsive UI design
 
 ## TODO Attributes
