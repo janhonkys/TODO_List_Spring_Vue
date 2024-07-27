@@ -1,4 +1,4 @@
-# TODO List (Spring Boot Backend and Vue.js)
+# TODO List (Spring Boot and Vue.js)
 
 This repository contains a web application built using Vue.js for the frontend and Spring Boot for the backend. The application is designed for managing todo items and includes features for adding, updating, and viewing todo items.
 
