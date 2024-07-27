@@ -37,6 +37,7 @@ The backend provides a RESTful API to handle todo data management using Spring B
 - Spring Boot: Framework for building production-ready applications quickly and efficiently.
 - Spring Web: Provides support for creating RESTful web services.
 - Spring Data JPA: Simplifies database access using Java Persistence API (JPA).
+- Hibernate: ORM framework for mapping Java objects to database tables.
 - MySQL: Database management system used for storing todo items.
 - Maven: Build tool for managing dependencies and building the project.
 
