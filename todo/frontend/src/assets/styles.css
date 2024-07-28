@@ -1,0 +1,92 @@
+/* General button styling */
+.btn {
+    margin-bottom: 1rem; /* Space below buttons */
+}
+  
+/* Checkbox container styling */
+.checkbox-container {
+  margin-left: 10px; /* Space between label and checkbox */
+}
+  
+/* Larger checkbox styling */
+.large-checkbox {
+  transform: scale(1.5); /* Scales up the checkbox */
+  margin: 0.5rem; /* Space around the checkbox */
+}
+
+/* Full viewport height and flex layout */
+.full-height {
+  height: 100vh; /* Full height of viewport */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Vertical layout */
+}
+
+/* Full-width and scrollable table container */
+.table-container {
+    width: 100%; /* Full width */
+    max-height: 78vh; /* Maximum height */
+    overflow-y: auto; /* Vertical scrolling */
+}
+
+/* Sticky table headers */
+thead th {
+    position: sticky; /* Fixes header position */
+    top: 0; /* Sticks to the top */
+    background: white; /* Background color */
+    z-index: 1; /* Layering */
+    border-bottom: 2px solid #dee2e6; /* Bottom border */
+}
+  
+/* Full-width container with padding */
+.full-width-container {
+  width: 100%; /* Full width */
+  padding: 1rem; /* Padding */
+  box-sizing: border-box; /* Includes padding in width */
+  overflow: hidden; /* Hides overflow */
+}
+  
+/* Full-width table with top margin */
+.table {
+  width: 100%; /* Full width */
+  margin-top: 1.22rem; /* Margin above table */
+}
+  
+/* Error and alert message styles */
+.text-danger {
+    color: #dc3545; /* Error color */
+}
+
+.alert-success {
+    color: #155724; /* Success text color */
+    background-color: #d4edda; /* Success background */
+    border-color: #c3e6cb; /* Success border */
+}
+
+.alert-danger {
+    color: #721c24; /* Danger text color */
+    background-color: #f8d7da; /* Danger background */
+    border-color: #f5c6cb; /* Danger border */
+}
+
+/* Priority box styles */
+.priority-box {
+    padding: 5px 10px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Inline block */
+    min-width: 60px; /* Minimum width */
+}
+
+.priority-low {
+    background-color: green; /* Low priority color */
+}
+
+.priority-medium {
+    background-color: orange; /* Medium priority color */
+}
+
+.priority-high {
+    background-color: red; /* High priority color */
+}

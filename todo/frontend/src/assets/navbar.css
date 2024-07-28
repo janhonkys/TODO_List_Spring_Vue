@@ -1,0 +1,25 @@
+/* navbar.css */
+
+/* Styles for the full-width navbar */
+.full-width-navbar {
+    width: 100%;
+    background-color: #ffffff !important; /* Change this color to your desired navbar color */
+    color: white; /* Change the text color */
+}
+
+/* Styles for the container within the navbar */
+.full-width-navbar .container-fluid {
+    padding: 0; 
+    width: 100%; 
+    max-width: none; 
+}
+
+/* Styles for the navigation links */
+.full-width-navbar .nav-link {
+    color: rgb(0, 0, 0); /* Change this color to your desired link color */
+}
+
+/* Styles for the navigation links */
+.full-width-navbar .nav-link:hover {
+    color: #9b9b9b; /* Change this color to your desired hover link color */
+}
