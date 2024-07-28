@@ -11,13 +11,14 @@ import org.mockito.MockitoAnnotations;
 
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-// Class for Unit tests
+// Class for Unit tests for TodoServiceImpl class
 public class TodoServiceImplTest {
 
     // Mock the TodoRepository to simulate database operations
@@ -84,5 +85,29 @@ public class TodoServiceImplTest {
         // Verify that the result is not null and has the expected title
         assertNotNull(result);
         assertEquals("Title", result.getTitle());
+    }
+
+    // Test the deleteById method of TodoServiceImpl
+    @Test
+    void testDeleteById() {
+        // Create a sample TodoEntry object with ID 1
+        TodoEntry todo = new TodoEntry("Title", "Description", "Medium", LocalDate.now(), false);
+        todo.setId(1);
+
+        // Mock the behavior of todoRepository.findById() to return the sample Todo
+        when(todoRepository.findById(1)).thenReturn(Optional.of(todo));
+
+        // Call the deleteById method of the service
+        todoService.deleteById(1);
+
+        // Verify that the deleteById method of the repository was called with the correct ID
+        verify(todoRepository, times(1)).deleteById(1);
+
+        // Mock the behavior of todoRepository.findAll() to return an empty list
+        when(todoRepository.findAll()).thenReturn(Collections.emptyList());
+
+        // Check if the repository is empty
+        List<TodoEntry> todos = todoService.findAll();
+        assertEquals(0, todos.size());
     }
 }
